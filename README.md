@@ -27,8 +27,11 @@ It showcases a stylish carousel, sidebar navigation, and modern UI inspired by p
 ---
 
 <img width="1918" height="733" alt="image" src="https://github.com/user-attachments/assets/7a1a6581-3526-4d8a-80c0-5bf82b93e4bc" />
-<img width="1918" height="878" alt="image" src="https://github.com/user-attachments/assets/07404a63-474e-4a69-a2ae-fbf64030f2ba" />
+
+<img width="1875" height="886" alt="image" src="https://github.com/user-attachments/assets/ed127638-a0b2-43bd-8195-6ef67a411c7d" />
+
 <img width="1918" height="891" alt="image" src="https://github.com/user-attachments/assets/72117978-0b41-414b-8b7f-b50784c1a6e9" />
+
 <img width="1918" height="896" alt="image" src="https://github.com/user-attachments/assets/d8153259-6ba1-4abf-8c01-0cfe4369ef6e" />
 
 <img width="1918" height="895" alt="image" src="https://github.com/user-attachments/assets/45b28d19-ae59-4646-84b2-2ca30176bd69" />
