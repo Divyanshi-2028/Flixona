@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIE WEBSITE</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel = "stylesheet" href = "style.css">
+    
+</head>
+<body>
+       <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="#" class="logo">
+    <i class='bx bx-movie-play' style="color: #FAED26; font-size: 28px; margin-right: 8px;"></i>Flixona
+</a>
+
+
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Series</a></li>
+                    <li><a href="#">About</a></li>
+                    
+                </ul>
+                <a href="#" class="btn btn-hover">
+                            <span>Sign in</span>
+                        </a>
+               
+                <div class="hamburger-menu" id="hamburger-menu">
+                    <div class="hamburger"></div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+  
+<div class="sidebar">
+    <a href="#"><i class="fas fa-search"></i></a>
+    <a href="#"><i class="fas fa-home"></i></a>
+    <a href="#"><i class="fas fa-users"></i></a>
+    <a href="#"><i class="fas fa-bookmark"></i></a>
+    <a href="#"><i class="fas fa-tv"></i></a>
+    <a href="#"><i class="fas fa-hourglass-half"></i></a>
+</div>
+<div class="carousel-container">
+  <div class="carousel">
+    <div class="slide active">
+      <img src="Dark1.jpg" alt="Banner 1">
+      <div class="caption">
+        <h1>DARK</h1>
+        <div class="meta">
+          <span class="star">8.7</span>
+          <span class="circle">3 seasons</span>
+          <span>HD</span>
+          <span>16+</span>
+        </div>
+        <p>A missing child sets four families on a frantic hunt for 
+          answers as they unearth a mind-bending mystery that spans three generations.The mystery-drama series introduces an intricate puzzle filled with twists that includes a web of curious characters, all of whom have a connection to town's trouble history--whether they know it or not. </p>
+        <a href="#" class="watch-btn resume" >WATCH NOW</a>  
+      </div>
+    </div>
+    <div class="slide">
+      <img src="Manifest.jpg" alt="Banner 2">
+      <div class="caption">
+        <h1>MANIFEST</h1>
+        <div class="meta">
+          <span class="star">7.6</span>
+          <span class="circle">4 seasons</span>
+          <span>HD</span>
+          <span>14+</span>
+        </div>
+        <p>When a plane mysteriously lands years after takeoff, the people onboard return to a world
+          that has moved on without them and face strange new realities.After being dead,191 passengers 
+          of the Montego Air Flight 828 try reintegrating into society. However, disturbing realities come to 
+          light, which unsettles them.
+        </p>
+        <a href="#" class="watch-btn resume">WATCH NOW</a>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="ozark.jpg" alt="Banner 3">
+      <div class="caption">
+        <h1>OZARK</h1>
+        <div class="meta">
+          <span class="star">8.5</span>
+          <span class="circle">4 seasons</span>
+          <span>HD</span>
+          <span>16+</span>
+        </div>
+        <p>A financial adviser drags his family from Chicago to the Missouri Ozarks, where he 
+          must launcher $500 million in five year to appease a drug boss.With wife Wndy and two kids in tow,
+          Marty is on the move after a money laundering scheme goes wrong, forcing him to pay off a substantial
+          debt to Mexican drug lord to keep his family safe.
+        </p>
+        <a href="#" class="watch-btn resume">WATCH NOW</a>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="Extraction1.jpg" alt="Banner 4">
+      <div class="caption">
+        <h1>EXTRACTION</h1>
+        <div class="meta">
+          <span class="star">7.4</span>
+          <span class="circle">116 min</span>
+          <span>HD</span>
+          <span>14+</span>
+        </div>
+        <p>A hardened gun-for-hire's latest mission becomes a soul-searching race to survive when he
+          sent into Bangladesh to rescue a drug lord's kidnapped son. While battling his own demons,Tyler,a 
+          ruthless mercenary, accepts the offer of rescuing an Indian crime lord.However, when he arrives, a gruesome
+          blood bath ensues. 
+        </p>
+        <a href="#" class="watch-btn resume">WATCH NOW</a>  
+      </div>
+    </div>
+    <div class="slide">
+      <img src="spotlight2.jpg" alt="Banner 5">
+      <div class="caption">
+        <h1>SPOTLIGHT</h1>
+        <div class="meta">
+          <span class="star">8.1</span>
+          <span class="circle">128 min</span>
+          <span>HD</span>
+          <span>18+</span>
+        </div>
+        <p>A team of reporters and editors at the Boston Globe relentlessly investigate 
+          a shocking child molestration cover-up by Catholic Church. Martin Baron joins the Boston Globe as an
+          editor and pushes four journalists name Michael, Walter, Sacha and Matt to pursue a story about child 
+          molestration charges against the local church. 
+        </p>
+        <a href="#" class="watch-btn resume">WATCH NOW</a>
+      </div>
+    </div>
+    <!-- Add more slides if needed -->
+  </div>
+  <button class="prev" onclick="prevSlide()">&#10094;</button>
+  <button class="next" onclick="nextSlide()">&#10095;</button>
+</div>
+<section class="new-release">
+  <h2> New Releases</h2>
+  <div class="carousel-container-movies">
+    <button class="carousel-btn prev-btn">&#10094;</button>
+    <div class="movie-carousel" id="movieCarousel2">
+      <div class="movie-card">
+        <img src="Gravity.webp" alt="YOU">
+        <div class="movie-info">
+          <h3>Gravity</h3>
+          <p>⭐8.5 🟡91 min 14+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Alice in Borderlan.webp" alt="YOU">
+        <div class="movie-info">
+          <h3>Alice In Borderland</h3>
+          <p>⭐8.4 🟡3 seasons 16+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="The Sandman.webp" alt="YOU">
+        <div class="movie-info">
+          <h3>The Sandman</h3>
+          <p>⭐8.1 🟡2 seasons 16+ HD</p>
+        </div>
+      </div>
+        <div class="movie-card">
+        <img src="Moonrise pt 2.webp" alt="YOU">
+        <div class="movie-info">
+          <h3>Moonrise</h3>
+          <p>⭐8.4 🟡103 min 10+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Squid Game 2nd pic.webp" alt="YOU">
+        <div class="movie-info">
+          <h3>Squid Game</h3>
+          <p>⭐8.9 🟡3 seasons 17+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Solo levelling.webp" alt="YOU">
+        <div class="movie-info">
+          <h3>Solo Leveling</h3>
+          <p>⭐8.4 🟡2 seasons 17+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Straw.webp" alt="YOU">
+        <div class="movie-info">
+          <h3>Straw</h3>
+          <p>⭐8.2 92 min 16+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="We were liars.webp" alt="YOU">
+        <div class="movie-info">
+          <h3>We were Liars</h3>
+          <p>⭐7.9  🟡59 min  15+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Ballerina.webp" alt="YOU">
+        <div class="movie-info">
+          <h3>Ballerina</h3>
+          <p>⭐8.3 🟡120 min 16+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="F1.webp" alt="YOU">
+        <div class="movie-info">
+          <h3>F1:The Movie</h3>
+          <p>⭐8.5 🟡119 min 16 HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="YOu.webp" alt="YOU">
+        <div class="movie-info">
+          <h3>YOU</h3>
+          <p>⭐8.8 🟡4 seasons 16+ HD</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-btn next-btn">&#10095;</button>
+  </div>
+</section>
+<!--TOP HITS SECTION-->
+<section class="top-hits"> 
+  <h2> Top Hits</h2>
+  <div class="carousel-container-movies">
+    <button class="carousel-btn prev-btn3">&#10094;</button>
+    <div class="movie-carousel" id="movieCarousel3">
+      <div class="movie-card">
+        <img src="Chernobyl.webp" alt="Chernobyl">
+        <div class="movie-info">
+          <h3>Chernobyl</h3>
+          <p>⭐9.5 🟡1 season 18+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="The Matrix.webp" alt="matrix">
+        <div class="movie-info">
+          <h3>The Matrix</h3>
+          <p>⭐8.7 🟡136 min 15+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Titanic.webp" alt="titanic">
+        <div class="movie-info">
+          <h3>Titanic</h3>
+          <p>⭐8.1 🟡194 min 13+ HD</p>
+        </div>
+      </div>
+        <div class="movie-card">
+        <img src="Avatar.webp" alt="Avatar">
+        <div class="movie-info">
+          <h3>Avatar</h3>
+          <p>⭐8.4 🟡162 min 13+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Game of thrones.webp" alt="game of thrones">
+        <div class="movie-info">
+          <h3>Game of Thrones</h3>
+          <p>⭐9.3 🟡8 seasons 18+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Inception-.webp" alt="inception">
+        <div class="movie-info">
+          <h3>Inception</h3>
+          <p>⭐8.4 🟡148 min 13+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Lucifer.webp" alt="Lucifer">
+        <div class="movie-info">
+          <h3>Lucifer</h3>
+          <p>⭐8.9 🟡6 seasons 16+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Breaking Bad.webp" alt="Breaking bad">
+        <div class="movie-info">
+          <h3>Breaking Bad</h3>
+          <p>⭐9.5  🟡5 seasons  17+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Friends.webp" alt="friends">
+        <div class="movie-info">
+          <h3>Friends</h3>
+          <p>⭐8.9 🟡10 seasons 13+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Outer Banks.webp" alt="outter banks">
+        <div class="movie-info">
+          <h3>Outer Banks</h3>
+          <p>⭐8.5 🟡3 seasons 14+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Interstellar.webp" alt="interstellar">
+        <div class="movie-info">
+          <h3>Interstellar</h3>
+          <p>⭐8.8 🟡169 min 13+ HD</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-btn next-btn3">&#10095;</button>
+  </div>
+</section>
+
+<section class="Featured_Originals_Movies"> 
+  <h2>Featured Originals : Movies</h2>
+  <div class="carousel-container-movies">
+    <button class="carousel-btn prev-btn4">&#10094;</button>
+    <div class="movie-carousel" id="movieCarousel4">
+      <div class="movie-card">
+        <img src="Article 15.webp" alt="Article 15">
+        <div class="movie-info">
+          <h3>Article 15</h3>
+          <p>⭐8.1 🟡130 min 16+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Birdbox.webp" alt="Birdbox">
+        <div class="movie-info">
+          <h3>Birdbox</h3>
+          <p>⭐7.5 🟡162 min 15+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="83.webp" alt="83">
+        <div class="movie-info">
+          <h3>83</h3>
+          <p>⭐8.5 🟡124 min 16+ HD</p>
+        </div>
+      </div>
+        <div class="movie-card">
+        <img src="Enola Holmes.webp" alt="Enola Holmes">
+        <div class="movie-info">
+          <h3>Enola Holmes</h3>
+          <p>⭐6.4 🟡123 min 12+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Nowhere.webp" alt="Nowhere">
+        <div class="movie-info">
+          <h3>Nowhere</h3>
+          <p>⭐9.3 🟡109 min 18+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Ziam.webp" alt="Ziam">
+        <div class="movie-info">
+          <h3>Ziam</h3>
+          <p>⭐8.4 🟡148 min 13+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Gangubal.webp" alt="Gangubai">
+        <div class="movie-info">
+          <h3>Gangubai</h3>
+          <p>⭐7.3 🟡154 min 15+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="The Platform.webp" alt="The Platform">
+        <div class="movie-info">
+          <h3>The Platform</h3>
+          <p>⭐7.0  🟡94 min 17+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Brick.webp" alt="Brick">
+        <div class="movie-info">
+          <h3>Brick</h3>
+          <p>⭐8.4 🟡100 min 17+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="The adam project.webp" alt="The Adam Project">
+        <div class="movie-info">
+          <h3>The Adam Project</h3>
+          <p>⭐6.7 🟡106 min 13+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Extinction.webp" alt="Extinction">
+        <div class="movie-info">
+          <h3>Extinction</h3>
+          <p>⭐7.8 🟡98 min 13+ HD</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-btn next-btn4">&#10095;</button>
+  </div>
+</section>
+
+<!-- FOR TOP TV -->
+<section class="top-TV"> 
+  <h2> Top TV</h2>
+  <div class="carousel-container-movies">
+    <button class="carousel-btn prev-btn5">&#10094;</button>
+    <div class="movie-carousel" id="movieCarousel5">
+      <div class="movie-card">
+        <img src="Kaleidoscope.webp" alt="Kaleidoscope">
+        <div class="movie-info">
+          <h3>Kaleidoscope</h3>
+          <p>⭐8.5 🟡1 season 17+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Money Heist.webp" alt="money Heist">
+        <div class="movie-info">
+          <h3>Money Heist</h3>
+          <p>⭐8.2 🟡5 seasons 17+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Altered Carbon.webp" alt="Altered Carbon">
+        <div class="movie-info">
+          <h3>Altered Carbon</h3>
+          <p>⭐8.1 🟡2 seasons 18+ HD</p>
+        </div>
+      </div>
+        <div class="movie-card">
+        <img src="Mismatched.webp" alt="Mismatched">
+        <div class="movie-info">
+          <h3>Mismatched</h3>
+          <p>⭐7.0 🟡3 seasons 14+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Vampire Diaries PT 2.webp" alt="Vampire Diaries">
+        <div class="movie-info">
+          <h3>Vampire Diaries</h3>
+          <p>⭐8.2 🟡8 seasons 16+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Sline.webp" alt="Sline">
+        <div class="movie-info">
+          <h3>S Line</h3>
+          <p>⭐8.4 🟡1 season 18+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Bridgerton.webp" alt="Bridgerton">
+        <div class="movie-info">
+          <h3>Bridgerton</h3>
+          <p>⭐8.9 🟡6 seasons 16+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Breaking Bad series.webp" alt="Breaking bad">
+        <div class="movie-info">
+          <h3>Breaking Bad</h3>
+          <p>⭐7.5  🟡3 seasons  18+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="The Witcher.webp" alt="the witcher">
+        <div class="movie-info">
+          <h3>The Witcher</h3>
+          <p>⭐7.9 🟡3 seasons 17+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="XO Kitty.webp" alt="xo kitty">
+        <div class="movie-info">
+          <h3>Xo Kitty</h3>
+          <p>⭐8.5 🟡2 seasons 14+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="13 Reasons why.webp" alt="13 Reasons Why">
+        <div class="movie-info">
+          <h3>13 Reasons Why</h3>
+          <p>⭐8.2 🟡4 seasons 14+ HD</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-btn next-btn5">&#10095;</button>
+  </div>
+</section>
+
+<!-- Action and Adventure -->
+
+<section class="Action_and_Adventure"> 
+  <h2>Action and Adventure</h2>
+  <div class="carousel-container-movies">
+    <button class="carousel-btn prev-btn6">&#10094;</button>
+    <div class="movie-carousel" id="movieCarousel6">
+      <div class="movie-card">
+        <img src="Alice in borderland.webp" alt="aliceinborderland">
+        <div class="movie-info">
+          <h3>Alice In Borderland</h3>
+          <p>⭐8.5 🟡3 seasons 16+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Vikings Valhalla.webp" alt="vikingsvalhalla">
+        <div class="movie-info">
+          <h3>Vikings Valhalla </h3>
+          <p>⭐7.5 🟡3 seasons 17+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Twister.webp" alt="Twister">
+        <div class="movie-info">
+          <h3>Twister</h3>
+          <p>⭐7.1 🟡113 min 13+ HD</p>
+        </div>
+      </div>
+        <div class="movie-card">
+        <img src="Geostorm.webp" alt="Geostorm">
+        <div class="movie-info">
+          <h3>Geostorm</h3>
+          <p>⭐7.4 🟡102 min 14+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="NCIS.webp" alt="NCIS">
+        <div class="movie-info">
+          <h3>NCIS</h3>
+          <p>⭐8.5 🟡21 seasons 14+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="The Walking Dead.webp" alt="thewalkingdead">
+        <div class="movie-info">
+          <h3>The Walking Dead</h3>
+          <p>⭐9.4 🟡11 seasons 18+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Train to Busan.webp" alt="Train to Busan">
+        <div class="movie-info">
+          <h3>Train to Busan</h3>
+          <p>⭐9.0 🟡118 min 16+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Dune.webp" alt="Dune">
+        <div class="movie-info">
+          <h3>Dune</h3>
+          <p>⭐8.0  🟡155 min  16+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Oblivion.webp" alt="Oblivion">
+        <div class="movie-info">
+          <h3>Oblivion</h3>
+          <p>⭐7.0 🟡124 min 16+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Avengers.webp" alt="Avengers">
+        <div class="movie-info">
+          <h3>The Avengers</h3>
+          <p>⭐9.5 🟡143 min 14+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Exterritorial.webp" alt="Exterritorial">
+        <div class="movie-info">
+          <h3>Exterritorial</h3>
+          <p>⭐7.5 🟡1 season 18+ HD</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-btn next-btn6">&#10095;</button>
+  </div>
+</section>
+
+<!-- Anime TV -->
+
+<section class="Anime_TV"> 
+  <h2>Anime TV</h2>
+  <div class="carousel-container-movies">
+    <button class="carousel-btn prev-btn7">&#10094;</button>
+    <div class="movie-carousel" id="movieCarousel7">
+      <div class="movie-card">
+        <img src="Naruto.jpg" alt="naruto">
+        <div class="movie-info">
+          <h3>Naruto</h3>
+          <p>⭐8.4 🟡5 seasons 13+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Demon_slayer.jpg" alt="demonslayer">
+        <div class="movie-info">
+          <h3>Demon Slayer </h3>
+          <p>⭐8.6 🟡4 seasons 16+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="One_piece.jpg" alt="one_piece">
+        <div class="movie-info">
+          <h3>One Piece</h3>
+          <p>⭐8.9 🟡20 seasons 12+ HD</p>
+        </div>
+      </div>
+        <div class="movie-card">
+        <img src="Poke`mon.jpg" alt="pokemon">
+        <div class="movie-info">
+          <h3>Pokemon</h3>
+          <p>⭐7.5 🟡25 seasons 7+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Jujutsu.jpg" alt="jujutsu">
+        <div class="movie-info">
+          <h3>Jujutsu Kaisen</h3>
+          <p>⭐8.5 🟡2 seasons 17+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Violet_Evergarden.jpg" alt="violetevergarden">
+        <div class="movie-info">
+          <h3>Violet Evergarden</h3>
+          <p>⭐8.5 🟡1 season 13+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Bungo_stray_dogs.jpg" alt="bunostraydogs">
+        <div class="movie-info">
+          <h3>Bungo Stray Dogs</h3>
+          <p>⭐7.8 🟡5 seasons 16+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Black_clover.webp" alt="blackclover">
+        <div class="movie-info">
+          <h3>Black Clover</h3>
+          <p>⭐8.3  🟡4 seasons  13+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Chainsaw_man.jpg" alt="chainsawman">
+        <div class="movie-info">
+          <h3>Chainsaw Man</h3>
+          <p>⭐8.5 🟡1 season 18+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Spy_x_family.jpg" alt="spyxfamily">
+        <div class="movie-info">
+          <h3>Spy x Family</h3>
+          <p>⭐8.5 🟡2 seasons 13+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Kakegurui.jpg" alt="kakegurui">
+        <div class="movie-info">
+          <h3>Kakegurui</h3>
+          <p>⭐7.2 🟡2 season 17+ HD</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-btn next-btn7">&#10095;</button>
+  </div>
+</section>
+
+
+<!-- crime and horror -->
+ <section class="crime_and_horror"> 
+  <h2>Crime and Horror</h2>
+  <div class="carousel-container-movies">
+    <button class="carousel-btn prev-btn8">&#10094;</button>
+    <div class="movie-carousel" id="movieCarousel8">
+      <div class="movie-card">
+        <img src="Veronica.webp" alt="Veronica">
+        <div class="movie-info">
+          <h3>Veronica</h3>
+          <p>⭐8.5 🟡1 season 16+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Delhi Crime.webp" alt="delhicrime">
+        <div class="movie-info">
+          <h3>Delhi Crime </h3>
+          <p>⭐8.3 🟡3 seasons 16+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Peaky Blinder.webp" alt="Peaky_blinders">
+        <div class="movie-info">
+          <h3>Peaky Blinders</h3>
+          <p>⭐9.0 🟡6 seasons 18+ HD</p>
+        </div>
+      </div>
+        <div class="movie-card">
+        <img src="Accused.webp" alt="Accused">
+        <div class="movie-info">
+          <h3>Accused</h3>
+          <p>⭐7.8 🟡2 seasons 17+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Hell Bound.webp" alt="hellbound">
+        <div class="movie-info">
+          <h3>Hellbound</h3>
+          <p>⭐7.5 🟡2 seasons 17+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="RUN.webp" alt="run">
+        <div class="movie-info">
+          <h3>Run</h3>
+          <p>⭐8.0 🟡1 season 16+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Tarot.webp" alt="Tarot">
+        <div class="movie-info">
+          <h3>Tarot</h3>
+          <p>⭐8.5 🟡112 min 14+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="The Mist.webp" alt="the_mist">
+        <div class="movie-info">
+          <h3>The Mist</h3>
+          <p>⭐7.4  🟡1 season  16+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Dept Q.webp" alt="deptq">
+        <div class="movie-info">
+          <h3>Dept.Q</h3>
+          <p>⭐8.3 🟡1 season 14+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="The Ritual.webp" alt="the_ritual">
+        <div class="movie-info">
+          <h3>The Ritual</h3>
+          <p>⭐7.5 🟡98 min 16+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="pataal lok.webp" alt="pataal_lok">
+        <div class="movie-info">
+          <h3>Pataal Lok</h3>
+          <p>⭐8.7 🟡2 seasons 18+ HD</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-btn next-btn8">&#10095;</button>
+  </div>
+</section>
+
+<!-- FOR KIDS -->
+
+ <section class="For_Kids"> 
+  <h2>For Kids</h2>
+  <div class="carousel-container-movies">
+    <button class="carousel-btn prev-btn9">&#10094;</button>
+    <div class="movie-carousel" id="movieCarousel9">
+      <div class="movie-card">
+        <img src="moana.webp" alt="moana">
+        <div class="movie-info">
+          <h3>Moana</h3>
+          <p>⭐8.6 🟡113 min 6+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="frozen.webp" alt="Frozen">
+        <div class="movie-info">
+          <h3>Frozen</h3>
+          <p>⭐7.5 🟡102 min 7+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="minions.webp" alt="Minions">
+        <div class="movie-info">
+          <h3>Minions</h3>
+          <p>⭐8.5 🟡91 min 6+ HD</p>
+        </div>
+      </div>
+        <div class="movie-card">
+        <img src="batman.webp" alt="batman">
+        <div class="movie-info">
+          <h3>Batman</h3>
+          <p>⭐9.0 🟡65 episodes 13+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="toy story.webp" alt="toy_story">
+        <div class="movie-info">
+          <h3>Toy Story</h3>
+          <p>⭐8.2 🟡100 min 4+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="peppa pig.webp" alt="Peppa_pig">
+        <div class="movie-info">
+          <h3>Peppa Pig</h3>
+          <p>⭐7.2 🟡9 seasons 3+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="jumanji.webp" alt="jumanji">
+        <div class="movie-info">
+          <h3>Jumanji</h3>
+          <p>⭐7.5 🟡104 min 10+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="Chillar Party.webp" alt="Chillar_Party">
+        <div class="movie-info">
+          <h3>Chillar Party</h3>
+          <p>⭐7.6  🟡120 min  8+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="matilda.webp" alt="matilda">
+        <div class="movie-info">
+          <h3>Matilda</h3>
+          <p>⭐7.0 🟡98 min 7+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="finding nemo.webp" alt="Finding_Nemo">
+        <div class="movie-info">
+          <h3>Finding Nemo</h3>
+          <p>⭐7.8 🟡100 min 5+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="raising dion.webp" alt="raising_dion">
+        <div class="movie-info">
+          <h3>Raising Dion</h3>
+          <p>⭐7.4 🟡17 episodes 7+ HD</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-btn next-btn9">&#10095;</button>
+  </div>
+</section>
+
+ <section class="new_on_flixona"> 
+  <h2>New On Flixona</h2>
+  <div class="carousel-container-movies">
+    <button class="carousel-btn prev-btn10">&#10094;</button>
+    <div class="movie-carousel" id="movieCarousel10">
+      <div class="movie-card">
+        <img src="the OA.webp" alt="the_oa">
+        <div class="movie-info">
+          <h3>The OA</h3>
+          <p>⭐8.2 🟡2 seasons 17+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="supacell.webp" alt="supacell">
+        <div class="movie-info">
+          <h3>Supacell</h3>
+          <p>⭐8.5 🟡1 season 17+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="katla.webp" alt="katla">
+        <div class="movie-info">
+          <h3>Katla</h3>
+          <p>⭐7.8 🟡1 season 17+ HD</p>
+        </div>
+      </div>
+        <div class="movie-card">
+        <img src="locke & key.webp" alt="locke_and_key">
+        <div class="movie-info">
+          <h3>Locke & Key</h3>
+          <p>⭐8.5 🟡3 seasons 14+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="uglies.webp" alt="uglies">
+        <div class="movie-info">
+          <h3>Uglies</h3>
+          <p>⭐7.9 🟡100 min 13+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="atlas.webp" alt="atlas">
+        <div class="movie-info">
+          <h3>Atlas</h3>
+          <p>⭐8.4 🟡110 min 13+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="la brea.webp" alt="la_brea">
+        <div class="movie-info">
+          <h3>La Brea</h3>
+          <p>⭐9.0 🟡3 seasons 14+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="snowpiercer.webp" alt="snowpiercer">
+        <div class="movie-info">
+          <h3>Snowpiercer </h3>
+          <p>⭐7.6  🟡120 min  8+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="wednesday.webp" alt="wednesday">
+        <div class="movie-info">
+          <h3>Wednesday</h3>
+          <p>⭐8.2 🟡4 seasons 14+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="ominscient.jpg" alt="ominscient">
+        <div class="movie-info">
+          <h3>Ominscient </h3>
+          <p>⭐9.2 🟡1 season 14+ HD</p>
+        </div>
+      </div>
+      <div class="movie-card">
+        <img src="biohackers.jpg" alt="biohackers">
+        <div class="movie-info">
+          <h3>Biohackers</h3>
+          <p>⭐7.0🟡2 seasons 14+ HD</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-btn next-btn10">&#10095;</button>
+  </div>
+</section>
+<section class="pricing-section">
+  <h2 class="pricing-heading">
+    <span class="yellow">F</span>LIXONA
+    <span class="yellow">P</span>RICING
+  </h2>
+  <div class="pricing-cards">
+  <!--Basic plan-->
+  <div class="card" id="leftmost-card">
+    <div class="plan-header-row">
+      <h3>Basic</h3>
+      <span class="price-right">Free</span>
+    </div>
+    <ul>
+      <li>480p/720p</li>
+      <li>1 device login</li>
+      <li><s>Early access</s></li>
+      <li><s>Offline Download</s></li>
+    </ul>
+    <button>REGISTER HERE</button>
+  </div>
+  <!--Premium plans-->
+  <div class="card-highlight">
+    <div class="plan-header-row">
+      <h3>Premium</h3>
+    <p class="price">$35.99 <span>/month</span></p>
+    </div>
+    <ul>
+      <li>HD(1080p)</li>
+      <li>2 device login</li>
+      <li>Early Access</li>
+      <li><s>Offline Download</s></li>
+    </ul>
+    <button>REGISTER HERE</button>
+  </div>
+  <div class="card">
+    <div class="plan-header-row">
+      <h3>VIP</h3>
+    <p class="price">$65.99 <span>/month</span></p>
+    </div>
+    <ul>
+      <li>4k HD+</li>
+      <li>Family sharing(4 device)</li>
+      <li>Early Access</li>
+      <li>Offline Downloads</li>
+    </ul>
+    <button>REGISTER HERE</button>
+  </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section brand">
+      <h2 class="logo">
+        <i class="bx bx-movie-play" style="color: #FAED26;font-size: 28px;margin-right: 8px;"></i>Flixona
+      </h2>
+      <p id="about">A curated platform dedicated to movie and television enthusiasts.
+      Flixona offers a seamless and engaging experience for discovering, exploring and 
+      enjoying flims and series across genres.
+      
+      </p>
+      <div class="social-icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h4>Flix</h4>
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">My profile</a></li>
+        <li><a href="#">Pricing plans</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Browse</h4>
+      <ul>
+        <li><a href="#">Genres</a></li>
+        <li><a href="#">Watchlist</a></li>
+        <li><a href="#">Recommendations</a></li>
+        <li><a href="#">Coming Soon</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Help</h4>
+      <ul>
+        <li><a href="#">Support Center</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Account & Billing Help</a></li>
+        <li><a href="#">Report a problem</a></li>
+      </ul>
+    </div>
+    <div class="footer-section" id="now">
+      <h4>Download app</h4>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>Copyright 2025 @divyanshi @avish</p>
+  </div>
+</footer>
+
+</body>
+<script src="app.js"></script>
+</html>
