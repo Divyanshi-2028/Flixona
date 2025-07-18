@@ -30,7 +30,7 @@ It showcases a stylish carousel, sidebar navigation, and modern UI inspired by p
 
 <img width="1875" height="886" alt="image" src="https://github.com/user-attachments/assets/ed127638-a0b2-43bd-8195-6ef67a411c7d" />
 
-<img width="1918" height="891" alt="image" src="https://github.com/user-attachments/assets/72117978-0b41-414b-8b7f-b50784c1a6e9" />
+<img width="1900" height="897" alt="image" src="https://github.com/user-attachments/assets/a45b4e60-0146-40f5-954c-3fffcb8c8b84" />
 
 <img width="1918" height="896" alt="image" src="https://github.com/user-attachments/assets/d8153259-6ba1-4abf-8c01-0cfe4369ef6e" />
 
